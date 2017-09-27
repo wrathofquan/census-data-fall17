@@ -1,0 +1,166 @@
+---
+  title: 
+  output:
+  revealjs::revealjs_presentation:
+  theme: serif
+transition: fade
+highlight: zenburn
+center: true
+---
+  
+  
+  
+  ## Introduction to the U.S Census and the American Community Survey
+  
+Josh Quan
+
+UC Berkeley Library 
+
+Fall 2017
+
+
+
+
+
+
+## Why does the U.S have a census?
+
+Congressional Redistricting!
+
+> "The actual Enumeration shall be made within three Years after the first Meeting of the Congress of the United States, and within every subsequent Term of ten Years, in such Manner as they shall by Law direct."
+
+
+-ARTICLE I, SECTION 2, CLAUSE 3
+
+
+
+
+## 1790 Census
+  
+![](census1790.jpg)
+
+
+
+
+## Structure and availability of data
+
+
+
+| Unit of Analysis                                                                       	| Geography                                                                          	| Time-Period                                                             	| Frequency                                                                                              	|
+  |----------------------------------------------------------------------------------------	|------------------------------------------------------------------------------------	|-------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------	|
+  | For which level do you want data?  Summary or Micro?  (individuals, counties, nations) 	| Is there a geographic  component to your topic?  (U.S., Sub-Saharan Africa, India) 	| Do you want a data for a  specific time period?  (1980-2000, 1930-1960) 	| How often do you want measures  for your variables?  (every year, every ten years, monthly, quarterly) 	|
+  
+  
+  ## Data Providers
+  
+  | Researchers                                                    	| Government Agencies                                                                                                                                                                       	| NGOs                                                                                                                                     	| Research Organizations                                                                                                   	|
+  |----------------------------------------------------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|------------------------------------------------------------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------	|
+  | Are there people you know who are doing this kind of research? 	| Think about government agencies - is the request for some official statistics or data that they'd be likely to collect and publish? (industry, agriculture, construction, disease, crime) 	| Are there councils or interest organizations devoted to the topic that might collect data independently? (HIV/AIDS, drugs, civil rights) 	| Would any specific research organizations be interested in the topic? (Pew, Roper, Gallup, NORC, NBER, World Bank, OECD) 	|
+
+
+
+<!--##Library Research Guides
+
+http://guides.lib.berkeley.edu/all-guides
+-->
+
+## Mind the 80/20 Rule
+
+> It is often said that 80% of data analysis is spent on the process of cleaning and preparing the data. 
+
+
+-Dasu and Johnson
+
+##Tidy Data = Happy Data
+
+> “Happy families are all alike; every unhappy family is unhappy in its own way.” 
+
+
+– Leo Tolstoy
+
+
+> “Tidy datasets are all alike, but every messy dataset is messy in its own way.” 
+
+
+– Hadley Wickham
+
+##Tidy Data = Happy Data
+
+Tidy Data has the following attributes:
+
+Each variable forms a column and contains values
+
+Each observation forms a row
+
+Each type of observational unit forms a table
+
+![](tidy.png)
+
+##Variable Naming
+
+|Good Example   | Bad Example   | Description  |
+|---|---|---|
+|gnp2010   |gnp-2002; gnp#2002    |   |
+|real_int    |real interest rate    |  |
+| score1; gnp2003   | 1st_score; 2003gnp  |    |
+|reg_out; glm1    | REG; glm; ttest   |   |
+| invest; interest  | xxx; yyy; zmdje;   |    |
+|male; asian    | gender; race   | |
+| citizen   | Are_you_a_US_citizen?   |   |
+| income; intUS03   | INCOME; Int_us2003;   |    |
+| 2017-04-20   |April 20, 2017   |   |
+
+##Variable Naming
+
+|Good Example   | Bad Example   | Description  |
+|---|---|---|
+|gnp2010   |gnp-2002; gnp#2002    | avoid special characters  |
+|real_int    |real interest rate    |Use underscore   |
+| score1; gnp2003   | 1st_score; 2003gnp  | Begin with a character   |
+|reg_out; glm1    | REG; glm; ttest   | Avoid reserved words  |
+| invest; interest  | xxx; yyy; zmdje;   |Use meaningful names    |
+|male; asian    | gender; race   | Use a value of dummy   |
+| citizen   | Are_you_a_US_citizen?   | The shorter, the better   |
+| income; intUS03   | INCOME; Int_us2003;   | Use lower cases   |
+| 2017-04-20   |April 20, 2017   | Use common ISO year format  |
+
+## Missing values, Zeros, and Nulls
+
+![](nulls.png)
+
+##Web Scraping
+http://statbel.fgov.be/en/statistics/figures/economy/indicators/prix_prod_con/
+
+```{r, include=FALSE}
+library(rvest)
+```
+
+
+```{r, warning=FALSE, message=FALSE}
+url='http://statbel.fgov.be/en/statistics/figures/economy/indicators/prix_prod_con/'
+TAB=read_html(url)%>%html_nodes('td')%>%html_text()
+NAMES=read_html(url)%>%html_nodes('th')%>%html_text()
+M=data.frame(matrix(TAB,ncol=5,nrow=9,byrow=T))
+M=cbind(NAMES[7:15],M)
+names(M)=NAMES[1:6]
+M
+```
+
+##Text-mining
+
+http://guides.lib.berkeley.edu/text-mining
+
+##D-Lab, Library Data Lab, Statistics Department
+
+- http://dlab.berkeley.edu/
+- http://www.lib.berkeley.edu/libraries/data-lab
+- https://statistics.berkeley.edu/consulting
+
+
+## Questions?
+
+- email: joshua.quan@berkeley.edu
+
+![](giphy.gif)
+
+
