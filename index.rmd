@@ -155,7 +155,7 @@ origin, household relationship, residence owned or rented
 | Samples 3 million households                        | Samples 18 million households                  |
 | Data collected every day                            | Data mostly collected between March and August |
 | Timely and available every year                     | Every 10 years                                 |
-| Provides estimates of characteristics of population | Provides population counts                     |
+| Provides **estimates** of characteristics of population | Provides population counts                     |
 
 
 
