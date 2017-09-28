@@ -12,8 +12,6 @@ output:
   
 ## Introduction to the U.S Census and the American Community Survey
   
-Josh Quan
-
 UC Berkeley Library 
 
 Fall 2017
@@ -30,8 +28,7 @@ Congressional Redistricting!
 > "The actual Enumeration shall be made within three Years after the first Meeting of the Congress of the United States, and within every subsequent Term of ten Years, in such Manner as they shall by Law direct."
 
 
--ARTICLE I, SECTION 2, CLAUSE 3
-
+Article 1, Section 2 of the U.S. Constitution.
 
 
 
@@ -78,11 +75,11 @@ To find Census information, you need to understand Census Geography
 
 
 - Counts voting age population for redistricting
-
+<br>
 - Census Short Form: Basic demographics data: age, sex, race, Hispanic/Latino
 origin, household relationship, residence owned or rented
     - Data asked of everyone
-
+<br>
 - Census Long Form: 1940-2000
     - Sampled 1 in 6 households(~17%)
 
@@ -153,7 +150,7 @@ origin, household relationship, residence owned or rented
 | ACS                                                 | Census                                         |
 |-----------------------------------------------------|------------------------------------------------|
 | Samples 3 million households                        | Samples 18 million households                  |
-| Data collected every day                            | Data mostly collected between March and August |
+| Monthly data collection                            | Data mostly collected between March and August |
 | Timely and available every year                     | Every 10 years                                 |
 | Provides **estimates** of characteristics of population | Provides population counts                     |
 
