@@ -174,8 +174,7 @@ origin, household relationship, residence owned or rented
 - Guidelines provided by the [U.S Office of Management and Budget (OMB)](https://www.whitehouse.gov/omb/fedreg_race-ethnicity)
     - Social definition of race recognized by the U.S government
     - Not biological or anthropological definitions
-    
-
+<br>
 - Uses of the data
     - Meet legislative redistricting requirements
     - Monitor compliance with Voting Rights Act
@@ -190,10 +189,11 @@ origin, household relationship, residence owned or rented
     - American Indian or Alaska Native alone
     - Asian alone
     - Native Hawaiian or other Pacific Islander alone
+<br>
 
 - Hispanic or Latino
     - Includes people who reported Hispanic origin
-    
+<br>
 - Not Hispanic or Latino
     - Includes people who identified as not being of Hispanic origin
     
