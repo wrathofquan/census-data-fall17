@@ -62,11 +62,33 @@ To find Census information, you need to understand Census Geography
 ## Census Confidentiality
 
 
+- Census says it never wants to disclose information that could lead to an identity of a person or household
+
+- How confidential? WWII
+
+- Census and Pizza Delivery?
+
+
+
+
+
 
 
 ## Decennial Census Data
 
 
+- Counts voting age population for redistricting
+
+- Census Long Form: 1940-2000
+    - Sampled 1 in 6 households(~17%)
+
+
+
+- Problems
+    - 10 year wait for new data
+    - Many grant programs require census data
+    - Researchers and local communities wanted more current information
+    
 
 
 
@@ -76,11 +98,36 @@ To find Census information, you need to understand Census Geography
 -----
 
 
+
+
+
 ## American Community Survey (ACS)
 
 
+- Replaces the Decennial Census Long Form with over 60 questions.
+
+- 3 millions households/year receive a form (250,000 households per month)
+
+- ACS started in 2005 to provide more current data
+
+- Provides a snapshop of areas based on a rolling 1 year and 5 year average. 
 
 
 
-## ACS
+
+## ACS Data Includes
+
+
+| Demographic Characteristics | Social Characteristics | Economics Characteristics  | Housing Characteristics |
+|-----------------------------|------------------------|----------------------------|-------------------------|
+| Sex                         | Eduation               | Income                     | Tenure                  |
+| Age                         | Marital Status         | Benefits                   | Occupancy & Structure   |
+| Hispanic Origin             | Marital History        | Occupation                 | Housing Value           |
+| Race                        | Fertility              | Industry                   | Taxes and Insurance     |
+|                             | Grandparent Caregivers | Commuting to work          | Utilities               |
+|                             | Veterans               | Place of work              | Mortgage/Monthly Rent   |
+|                             | Disability Status      |                            |                         |
+|                             | Health Insurance       |                            |                         |
+|                             |                        |                            |                         |
+
 
