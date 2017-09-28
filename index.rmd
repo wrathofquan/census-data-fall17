@@ -63,7 +63,6 @@ To find Census information, you need to understand Census Geography
 
 - How confidential? WWII
 
-- Census and Pizza Delivery?
 
 
 
@@ -134,7 +133,7 @@ origin, household relationship, residence owned or rented
 
 ## ACS Data: Available by Geography
 
-- Areas with a population 65,000+: 1-Year Estimates data avail. for 2005-2015
+- Areas with a population 65,000+: 1-Year Estimates data avail. for 2005-2016
 
 - Areas with a population 20,000+: 3-Year Estimates (data avail. for 2005/07-2011/14—ended in 2014)
 
@@ -217,9 +216,4 @@ http://www.pewsocialtrends.org/interactives/multiracial-timeline/
 | Data Planet              | Berkeley SDA  |
 |                          | UC Data/CCRDC |
 
-
-## Helpful Background Research
-
-- Census Questions 1790-2000 [http://oskicat.berkeley.edu/record=b158582278]
-- Japanese Internment and the Census [https://www.scientificamerican.com/article/confirmed-the-us-census-b/]
 
