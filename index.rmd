@@ -189,7 +189,7 @@ origin, household relationship, residence owned or rented
     - Black or African-American alone
     - American Indian or Alaska Native alone
     - Asian alone
-    - Native Hawaiin or other Pacific Islander alone
+    - Native Hawaiian or other Pacific Islander alone
 
 - Hispanic or Latino
     - Includes people who reported Hispanic origin
