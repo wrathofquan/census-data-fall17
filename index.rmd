@@ -201,6 +201,12 @@ origin, household relationship, residence owned or rented
 - Not Hispanic or Latino
     - Includes people who identified as not being of Hispanic origin
     
+
+
+## How Census Race Categories Have Changed
+
+http://www.pewsocialtrends.org/interactives/multiracial-timeline/
+
     
     
 ## Statistical and Data Sources
