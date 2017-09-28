@@ -74,11 +74,11 @@ To find Census information, you need to understand Census Geography
 
 
 - Counts voting age population for redistricting
-<br>
+<br><br>
 - Census Short Form: Basic demographics data: age, sex, race, Hispanic/Latino
 origin, household relationship, residence owned or rented
     - Data asked of everyone
-<br>
+<br><br>
 - Census Long Form: 1940-2000
     - Sampled 1 in 6 households(~17%)
 
@@ -135,7 +135,7 @@ origin, household relationship, residence owned or rented
 
 - Areas with a population 65,000+: 1-Year Estimates data avail. for 2005-2016
 
-- Areas with a population 20,000+: 3-Year Estimates (data avail. for 2005/07-2011/14—ended in 2014)
+- Areas with a population 20,000+: 3-Year Estimates (data avail. for 2005/07-2011/14—ended in 2014)  :(
 
 - Areas below 20,000: 5-year estimates (data available for 2005/09-2011/15) 
 	    (5-year estimates includes census tracts & block groups
@@ -202,6 +202,7 @@ origin, household relationship, residence owned or rented
 ## How Census Race Categories Have Changed
 
 http://www.pewsocialtrends.org/interactives/multiracial-timeline/
+http://racebox.org/
 
     
     
