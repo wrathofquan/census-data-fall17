@@ -61,7 +61,7 @@ To find Census information, you need to understand Census Geography
 
 - Census says it never wants to disclose information that could lead to an identity of a person or household
 
-- How confidential? WWII
+- How confidential? [WWII and Japanese Internment](https://www.scientificamerican.com/article/confirmed-the-us-census-b/)
 
 
 
@@ -171,7 +171,7 @@ origin, household relationship, residence owned or rented
 
 ## Race and Ethnicity
 
-- Guidelines provided by the U.S Office of Management and Budget (OMB)
+- Guidelines provided by the [U.S Office of Management and Budget (OMB)](https://www.whitehouse.gov/omb/fedreg_race-ethnicity)
     - Social definition of race recognized by the U.S government
     - Not biological or anthropological definitions
     
@@ -221,3 +221,10 @@ http://racebox.org/
 
 
 <small>*Restricted to Berkeley users</small>
+
+
+## Contact
+
+ssd-datalab@berkeley.edu
+
+
