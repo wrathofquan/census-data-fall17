@@ -212,9 +212,10 @@ http://racebox.org/
 |--------------------------|---------------|
 | American FactFinder      | IPUMS         |
 | State/County Quick Facts | Census FTP    |
-| Social Explorer          | NHGIS         |
-| Simply Map               | ICPSR         |
-| Data Planet              | Berkeley SDA  |
-|                          | UC Data/CCRDC |
+| Social Explorer*          | NHGIS         |
+| Simply Map*               | ICPSR*         |
+| Data Planet*              | Berkeley SDA  |
+|                          | UC Data/CCRDC* |
 
 
+<small>*Restricted to Berkeley users</small>
