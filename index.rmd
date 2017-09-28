@@ -159,7 +159,7 @@ origin, household relationship, residence owned or rented
 
 - Be aware of changes in Census geography-more common in small area geography.
 
-- Compare estimates from same time spans
+- [Compare estimates from same time spans](https://www.census.gov/programs-surveys/acs/guidance/comparing-acs-data.html)
     - 1 year to 1 year
     - 3 year to 3 year
     - 5 year to 5 year
